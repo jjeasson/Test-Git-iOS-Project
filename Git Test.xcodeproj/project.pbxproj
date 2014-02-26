@@ -21,6 +21,7 @@
 		B5810A2A18BE232B00929954 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5810A0C18BE232B00929954 /* UIKit.framework */; };
 		B5810A3218BE232B00929954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5810A3018BE232B00929954 /* InfoPlist.strings */; };
 		B5810A3418BE232B00929954 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5810A3318BE232B00929954 /* Git_TestTests.m */; };
+		B5810A3F18BE26EA00929954 /* JJETest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5810A3E18BE26EA00929954 /* JJETest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B5810A2F18BE232B00929954 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		B5810A3118BE232B00929954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5810A3318BE232B00929954 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B5810A3D18BE26EA00929954 /* JJETest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJETest.h; sourceTree = "<group>"; };
+		B5810A3E18BE26EA00929954 /* JJETest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJETest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				B5810A1A18BE232B00929954 /* Main.storyboard */,
 				B5810A1D18BE232B00929954 /* JJEViewController.h */,
 				B5810A1E18BE232B00929954 /* JJEViewController.m */,
+				B5810A3D18BE26EA00929954 /* JJETest.h */,
+				B5810A3E18BE26EA00929954 /* JJETest.m */,
 				B5810A2018BE232B00929954 /* Images.xcassets */,
 				B5810A0F18BE232B00929954 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5810A1918BE232B00929954 /* JJEAppDelegate.m in Sources */,
+				B5810A3F18BE26EA00929954 /* JJETest.m in Sources */,
 				B5810A1518BE232B00929954 /* main.m in Sources */,
 				B5810A1F18BE232B00929954 /* JJEViewController.m in Sources */,
 			);
